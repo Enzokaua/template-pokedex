@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Initial pokemon</title>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+            <div class="image-pok">
+                <img src="./assets/007.png" alt="">
+            </div>
+        <div class="information">
+            <div class="about">
+              <div class="name">
+                <p>Squirtle</p>
+                </div>
+                <div class="type">
+                    <div class="water pill">
+                        <p>Water</p>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <p>'Lorem Ipsum is simply d including versions of Lorem Ipsum asfasfasfasfa sfasfasfasfasfafs asfasfas Lorem Ipsum is simply d including versions of Lorem Ipsum asfasfasfasfa sfasfasfasfasfafs asfasfas'.
+                </p>
+            </div>
+      <div class="nav-bar">
+        <button class="stats tablinks" onclick="viewTab('stats')">Stats</button>
+        <button class="evolution tablinks" onclick="viewTab('evolution')">Evolutions</button>
+        <button class="moves tablinks" onclick="viewTab('moves')">Moves</button>
+      </div>
+      <div id="stats" class="tabcontent">
+        <h3>Stats</h3>
+        <p>Stats is the capital city of England.</p>
+      </div>
+      <div id="evolution" class="tabcontent" >
+        <h3>Evolutions</h3>
+        <p>Evolutions is the capital of France.</p> 
+      </div>
+      <div id="moves" class="tabcontent">
+        <h3>Moves</h3>
+        <p>Moves is the capital of Japan.</p>
+      </div>
+    <script>
+        const statsView = document.getElementById('stats')
+        statsView.style.display = 'block'
+        function viewTab(name) {
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          const view = document.getElementById(name)
+          view.style.display = 'block'
+        }
+    </script>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

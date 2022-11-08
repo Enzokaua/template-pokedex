@@ -1,0 +1,180 @@
+@media screen and (max-width: 720px) {
+
+    .container
+    {
+       background-color: dodgerblue;
+       background-image: linear-gradient(to top right, #549ede, #6ab9e5);
+    }
+/* 
+    .card {
+        background-image: url(./assets/pokeball-icon-png-28.jpg);
+        background-repeat: no-repeat no-repeat ; 
+        background-position: top;
+    } */
+
+    .name{
+        font-size: 40px;
+        color: rgb(43, 37, 37);
+        font-weight: 400;
+        font-family: 'Poppins';
+        padding-bottom: 30px;
+
+    }
+
+    .image-pok{
+        max-width: 400px;
+        min-width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: -60px;
+        padding-top: 30px;
+    }
+
+    .information {
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 50px 50px 0px 0px;
+        height: 540px;
+    }
+
+    .about, .description, .power {
+        font-family: 'Poppins';
+        text-transform: capitalize;
+    } 
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 60px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .description {
+        padding-top: 35px;
+        font-weight: 600px;
+        font-size: 15px;
+        padding-bottom: 0px;
+        color: gray;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .power {
+        padding-top: 40px;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+        color: black;
+
+    }
+
+    .type{
+        width: 120px;
+        height: 25px;
+        font-weight: lighter;
+    }
+
+    .water:hover{
+        color: #549ede;
+        border-color: #549ede;
+        background-color: white;
+        transition: 1s;
+
+        }
+
+    .poison:hover{
+        color: purple;
+        border-color: purple;
+        background-color: white;
+        transition: 1s;
+            }
+
+    .pill {
+        font-size: 12px;
+        border: 2px solid;
+        padding-left: 35px;
+        border-radius: 40px;
+        transition: 0.5s;
+        font-family: 'Poppins';
+        height: 20px;
+    }
+
+    .water {
+        padding-left: 41px;
+        border-color: #549ede;
+        color: white;
+        background-color: #549ede;
+        padding-top: 5px;
+    }
+
+
+    .nav-bar {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 30px;
+    }
+
+    .stats {
+        font-family: 'Poppins';
+        font-size: 17px;
+        border: 2px solid white;
+        border-radius: 20px;
+        width: 120px;
+        height: 30px;
+        color: #549ede;
+    }
+
+    .stats:focus {
+        color: white;
+        border-color: #549ede;
+        background-color: #549ede;
+        transition: 1s;
+    }
+
+    .evolution:focus {
+        color: white;
+        border-color: #549ede;
+        background-color: #549ede;
+        transition: 1s;
+    }
+
+    .moves:focus {
+        color: white;
+        border-color: #549ede;
+        background-color: #549ede;
+        transition: 1s;
+    }
+
+    .evolution {
+        font-family: 'Poppins';
+        font-size: 17px;
+        border: 2px solid white;
+        border-radius: 20px;
+        width: 120px;
+        height: 30px;
+        color: #549ede;
+    }
+
+    .moves {
+        font-family: 'Poppins';
+        font-size: 17px;
+        border: 2px solid white;
+        border-radius: 20px;
+        width: 120px;
+        height: 30px;
+        color: #549ede;
+    }
+
+    .tabcontent {
+        padding-top: 30px;
+        display: none;
+    }
+}
