@@ -2,15 +2,9 @@
 
     .container
     {
-       background-color: dodgerblue;
-       background-image: linear-gradient(to top right, #549ede, #6ab9e5);
+       background-color: #89b822;
+       background-image: linear-gradient(to top right, #17cfb0, #18b8a0);
     }
-/* 
-    .card {
-        background-image: url(./assets/pokeball-icon-png-28.jpg);
-        background-repeat: no-repeat no-repeat ; 
-        background-position: top;
-    } */
 
     .name{
         font-size: 40px;
@@ -79,9 +73,9 @@
         font-weight: lighter;
     }
 
-    .water:hover{
-        color: #549ede;
-        border-color: #549ede;
+    .grass:hover{
+        color: #01a58b;
+        border-color: #01a58b;
         background-color: white;
         transition: 1s;
 
@@ -104,11 +98,11 @@
         height: 20px;
     }
 
-    .water {
+    .grass {
         padding-left: 41px;
-        border-color: #549ede;
+        border-color: #01a58b;
         color: white;
-        background-color: #549ede;
+        background-color: #01a58b;
         padding-top: 5px;
     }
 
@@ -129,27 +123,27 @@
         border-radius: 20px;
         width: 120px;
         height: 30px;
-        color: #549ede;
+        color: #01a58b;
     }
 
     .stats:focus {
         color: white;
-        border-color: #549ede;
-        background-color: #549ede;
+        border-color: #01a58b;
+        background-color: #01a58b;
         transition: 1s;
     }
 
     .evolution:focus {
         color: white;
-        border-color: #549ede;
-        background-color: #549ede;
+        border-color: #01a58b;
+        background-color: #01a58b;
         transition: 1s;
     }
 
     .moves:focus {
         color: white;
-        border-color: #549ede;
-        background-color: #549ede;
+        border-color: #01a58b;
+        background-color: #01a58b;
         transition: 1s;
     }
 
@@ -160,7 +154,7 @@
         border-radius: 20px;
         width: 120px;
         height: 30px;
-        color: #549ede;
+        color: #01a58b;
     }
 
     .moves {
@@ -170,7 +164,7 @@
         border-radius: 20px;
         width: 120px;
         height: 30px;
-        color: #549ede;
+        color: #01a58b;
     }
 
     .tabcontent {
