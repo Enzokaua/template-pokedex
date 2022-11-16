@@ -2,8 +2,8 @@
 
     .container
     {
-       background-color: #89b822;
-       background-image: linear-gradient(to top right, #17cfb0, #18b8a0);
+       background-color: #354DAC;
+       background-image: linear-gradient(to bottom right, #0AC5E7, #354DAC);
     }
 
     .name{
@@ -16,8 +16,8 @@
     }
 
     .image-pok{
-        max-width: 400px;
-        min-width: 400px;
+        max-width: 200px;
+        min-width: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -68,14 +68,20 @@
     }
 
     .type{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; 
+        column-gap: 8px;
         width: 120px;
         height: 25px;
         font-weight: lighter;
+
     }
 
     .grass:hover{
-        color: #01a58b;
-        border-color: #01a58b;
+        color: #354DAC;
+        border-color: #354DAC;
         background-color: white;
         transition: 1s;
 
@@ -89,21 +95,34 @@
             }
 
     .pill {
-        font-size: 12px;
+        font-size: 13px;
         border: 2px solid;
-        padding-left: 35px;
+        padding-left: 10px;
         border-radius: 40px;
         transition: 0.5s;
         font-family: 'Poppins';
         height: 20px;
+        text-align: center;
     }
 
     .grass {
         padding-left: 41px;
-        border-color: #01a58b;
+        border-color: #354DAC;
         color: white;
-        background-color: #01a58b;
+        background-color: #354DAC;
         padding-top: 5px;
+        padding: 10px 47px 1px 45px;
+
+    }
+
+    .poison {
+        padding-left: 41px;
+        border-color: purple;;
+        color: white;
+        background-color: purple;
+        padding-top: 5px;
+        padding: 10px 47px 1px 45px;
+
     }
 
 
@@ -123,27 +142,27 @@
         border-radius: 20px;
         width: 120px;
         height: 30px;
-        color: #01a58b;
+        color: #354DAC;
     }
 
     .stats:focus {
         color: white;
-        border-color: #01a58b;
-        background-color: #01a58b;
+        border-color: #354DAC;
+        background-color: #354DAC;
         transition: 1s;
     }
 
     .evolution:focus {
         color: white;
-        border-color: #01a58b;
-        background-color: #01a58b;
+        border-color: #354DAC;
+        background-color: #354DAC;
         transition: 1s;
     }
 
     .moves:focus {
         color: white;
-        border-color: #01a58b;
-        background-color: #01a58b;
+        border-color: #354DAC;
+        background-color: #354DAC;
         transition: 1s;
     }
 
@@ -154,7 +173,7 @@
         border-radius: 20px;
         width: 120px;
         height: 30px;
-        color: #01a58b;
+        color: #354DAC;
     }
 
     .moves {
@@ -164,7 +183,7 @@
         border-radius: 20px;
         width: 120px;
         height: 30px;
-        color: #01a58b;
+        color: #354DAC;
     }
 
     .tabcontent {
