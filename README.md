@@ -1,3 +1,13 @@
-# POKEDEX PROJECT MOBILE
-This project is based on demonstrating the mobile interface of a pokedex <br>
-with the images, characteristics and status of each pokemon
+# Pokedex (Template)
+
+## Descrição
+
+Enquanto me aventurava no desenvolvimento frontend, decidi criar um template de uma pokedex mobile para fixar alguns conhecimentos.
+
+## Tecnologias Utilizadas
+
+As tecnologias que este projeto possui, são:
+
+- *HTML5*
+- *CSS3* 
+- *JavaScript*
